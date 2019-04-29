@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Longtime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div id="wrap">
+    <div class="background">
+        <div class="container">
+            <form class="askName">
+                <input type="text" placeholder="당신의 이름은?" class="userName">
+            </form>
+            
+                <p class="greeting"></p>
+            
+            <form class="askMate">
+                    <p>당신은 애인이 있습니까?</p>
+                    <br>
+                <input type="button" value="yes" class="yes">
+                <input type="button" value="no" class="no">    
+            </form>
+            
+            <form class="askMateName">
+                <input type="text" placeholder="애인의 이름은?" class="mateName">
+            </form>
+            
+            <h2 class="js-couple"></h2>
+
+            <form class="askDate">
+                <p>우리가 처음 만난 날은,</p>
+                <input type="date" class="date">
+                <input type="submit" value="ok!">
+            </form>
+
+            
+            <h2 class="js-days"></h2>
+
+            <a href="#" class="reDo"><i class="fas fa-redo"></i></a>
+        </div>
+        </div>
+    </div>
+    <script src="couple.js"></script>
+</body>
+</html>
