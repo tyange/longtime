@@ -1,29 +1,37 @@
 @charset 'utf-8';
-@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=Gugi|ZCOOL+KuaiLe');
 
 body{
     font-family:Gugi;
-    background-image:url(https://source.unsplash.com/1920x800/?couple);
+    background-image:url(https://source.unsplash.com/random/?couple);
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: center;
     width:100%;
     height:100vh;
+    overflow: hidden;
+    user-select: none;
 }
 input{
     border:none;
     background:none;
     outline: none;
     border-bottom:1px solid #000;
-    padding-bottom:10px;
     box-sizing: border-box;
+    height:50px;
 }
 ::-webkit-input-placeholder{
     color:#000;
+    font-family: Gugi;
+    font-size:20px;
+    font-weight: normal;
 }
 h2{
+    width:500px;
     font-size:45px;
 }
 p{
+    width:500px;
     font-size:25px;
 }
 
@@ -37,14 +45,29 @@ p{
     
 }
 .background{
-    background:rgba(255,255,255,0.5);
+    background:rgba(255,255,255,0.8);
     width:100%;
     height:100%;
     position: relative;
 }
+.title{
+    position: absolute;
+    font-size:20px;
+    top:5px;
+    left:30px;
+    font-family: ZCOOL KuaiLe;
+    font-weight: normal;
+    color:rgba(0,0,0,0.2);
+}
+.copyright{
+    position: absolute;
+    display: block;
+    bottom:10px;
+    right:10px;
+    font-family: ZCOOL KuaiLe;
+    color:rgba(0,0,0,0.3);
+}
 .container{
-    /* padding-top:120px;
-    box-sizing: border-box; */
     position: absolute;
     left:50%;
     top:50%;
@@ -63,11 +86,6 @@ form{
     text-align:center;
     display:none;
 }
-.mateName{
-    
-    margin-top:30px;
-}
-
 .askName{
     display:none;
 }
@@ -85,6 +103,7 @@ form{
 }
 .askDate input{
     border-bottom:none;
+    height:auto;
 }
 .reDo{
     display:none;
@@ -94,6 +113,7 @@ form{
 }
 .js-couple{
     display:none;
+    margin-top:0;
 }
 .js-days{
     display: none;

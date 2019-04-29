@@ -8,7 +8,7 @@ const gap=nowDate - firstDate;
 
 let day=Math.floor(gap/(1000*60*60*24));
 
-document.querySelector('.show').innerHTML=`오늘은 우리가 만난지<br>${day}일`
+document.querySelector('.show').innerHTML=`오늘은 우리의 ${day}일`
 
 console.log(gap);
 

@@ -100,7 +100,7 @@ const USER_LS="currentUser",
 
         let day=Math.floor((gap/(1000*60*60*24))+1);
         days.classList.add(SHOWING);
-        days.innerText=`오늘은 우리가 만난지 ${day}일`;
+        days.innerText=`오늘은 우리의 ${day}일`;
         reDoBtn.classList.add(SHOWING);
         reDo();
         
