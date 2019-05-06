@@ -23,7 +23,7 @@ input{
 ::-webkit-input-placeholder{
     color:#000;
     font-family: Gugi;
-    font-size:20px;
+    font-size:19px;
     font-weight: normal;
 }
 h2{
@@ -114,6 +114,9 @@ form{
 .js-couple{
     display:none;
     margin-top:0;
+}
+.js-couple span{
+    color:#e74c3c;
 }
 .js-days{
     display: none;

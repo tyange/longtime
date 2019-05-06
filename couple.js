@@ -68,7 +68,7 @@ const USER_LS="currentUser",
         let you=localStorage.getItem(USER_LS),
             mate=localStorage.getItem(USERMATE_LS);
         couple.classList.add(SHOWING);
-        couple.innerText=`${mate} ♥ ${you}`
+        couple.innerHTML=`${mate} <span>♥</span> ${you}`
     }
 
     let thirdPhase=function(){
